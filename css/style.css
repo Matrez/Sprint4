@@ -12,11 +12,13 @@ html, body {
 .nav-link {
     font-size: 1.1em !important;
 }
-.carousel-inner {
+.carousel-item {
+    min-height: 480px;
+    background-size: cover;
 }
 .carousel-inner img {
     width: 100%;
-    height: 480px;
+    height: 100%;
 }
 .carousel-caption {
     position: absolute;
@@ -112,20 +114,29 @@ hr.light {
 
 /*---Media queries---*/
 @media (max-width: 992px) {
+    .carousel-caption h1{
+        font-size: 400%;
+    }
+    .carousel-item {
+        min-height: 440px;
+    }
     .social a {
         font-size: 4em;
         padding: 2rem;
     }
 }
 @media (max-width: 768px) {
+    .carousel-item {
+        min-height: 400px;
+    }
     .carousel-caption {
         top: 45%;
     }
     .carousel-caption h1 {
-        font-size: 350%;
+        font-size: 320%;
     }
     .carousel-caption h3 {
-        font-size: 140%;
+        font-size: 130%;
         font-weight: 400;
         padding-bottom: 0.2rem;
     }
@@ -142,6 +153,9 @@ hr.light {
     }
 }
 @media (max-width: 576px) {
+    .carousel-item {
+        min-height: 360px;
+    }
     .carousel-caption h1 {
         font-size: 250%;
     }
