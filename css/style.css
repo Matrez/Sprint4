@@ -52,6 +52,16 @@ html, body {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
 }
+.fa-quinscape, .fa-microsoft, .fa-desktop {
+    font-size: 4em;
+    margin: 1rem;
+}
+.fa-quinscape {
+    color: #e3b167;
+}
+.fa-microsoft {
+    color: #00aced;
+}
 .fa-code, .fa-bold, .fa-css3 {
      font-size: 4em;
      margin: 1rem;
