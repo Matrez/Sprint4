@@ -43,6 +43,14 @@ html, body {
 .padding {
     padding-bottom: 2rem;
 }
+.paddingPlus {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.card {
+    margin-bottom: 1rem;
+}
 .welcome {
     width: 75%;
     margin: 0 auto;
