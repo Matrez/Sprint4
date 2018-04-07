@@ -48,8 +48,12 @@ html, body {
     padding-left: 2rem;
     padding-right: 2rem;
 }
+.paddingTop{
+    padding-top: 5rem;
+}
 .card {
     margin-bottom: 1rem;
+    width: 80% !important;
 }
 .welcome {
     width: 75%;
@@ -107,6 +111,28 @@ html, body {
 .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover {
     color: #d5d5d5;
 }
+.effect img {
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+.effect img:hover {
+    -webkit-transform: scale(1.08) rotate(-0.5deg);
+    -moz-transform: scale(1.08) rotate(-0.5deg);
+    -ms-transform: scale(1.08) rotate(-0.5deg);
+    -o-transform: scale(1.08) rotate(-0.5deg);
+    transform: scale(1.08) rotate(-0.5deg);
+    -webkit-transition: transform 0.25s ease;
+    -moz-transition: transform 0.25s ease;
+    -ms-transition: transform 0.25s ease;
+    -o-transition: transform 0.25s ease;
+    transition: transform 0.25s ease;
+}
+.card > a {
+    overflow: hidden;
+}
 footer {
     background-color: #3f3f3f;
     color: white;
@@ -138,6 +164,12 @@ hr.light {
         font-size: 4em;
         padding: 2rem;
     }
+    .paddingTop {
+        padding-top: 2rem;
+    }
+    .card {
+        width: 100% !important;
+    }
 }
 @media (max-width: 768px) {
     .carousel-item {
@@ -159,11 +191,14 @@ hr.light {
         padding: 8px 14px;
     }
     .display-4 {
-        font-size: 200%;
+        font-size: 220%;
     }
     .social a {
         font-size: 2.5em;
         padding: 1.2rem;
+    }
+    .card {
+        width: 85% !important;
     }
 }
 @media (max-width: 576px) {
@@ -184,10 +219,13 @@ hr.light {
         display: none;
     }
     .display-4 {
-        font-size: 160%;
+        font-size: 180%;
     }
     .social a {
         font-size: 2em;
         padding: 0.7rem;
+    }
+    .card {
+        width: 95% !important;
     }
 }
