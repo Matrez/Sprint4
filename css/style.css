@@ -133,6 +133,15 @@ html, body {
 .card > a {
     overflow: hidden;
 }
+.linksCard {
+    margin-bottom: 0.5rem;
+}
+.linksCard a:link, .linksCard a:visited {
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
 footer {
     background-color: #3f3f3f;
     color: white;
